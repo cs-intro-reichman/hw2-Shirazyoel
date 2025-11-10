@@ -15,10 +15,10 @@ public class Cheers {
         while (i < cheering.length()){
                 char c = cheering.charAt(i);
                 if (m.indexOf(c) != -1){
-                        System.out.println("give me an " + c + ": " + c + "!");
+                        System.out.println("Give me an " + c + ": " + c + "!");
                 }
                 else {
-                        System.out.println("give me a " + c + ": " + c + "!");
+                        System.out.println("Give me a " + c + ": " + c + "!");
                 }
                 i++;
 
