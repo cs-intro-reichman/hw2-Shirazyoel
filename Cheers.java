@@ -23,6 +23,7 @@ public class Cheers {
                 i++;
 
          }
+         System.out.println("What does that spell?");
         
         while (x > 0) {
                 System.out.println(cheering + "!");
