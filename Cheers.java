@@ -9,6 +9,7 @@ Great work boaz!
 public class Cheers {
         public static void main(String[] args) {
         String cheering = (args [0]);
+        cheering = cheering.toUpperCase();
         int x = Integer.parseInt(args [1]);
         String m = "EFHILMNORSX";
         int i = 0;
