@@ -11,7 +11,7 @@ public class Cheers {
         String cheering = (args [0]);
         cheering = cheering.toUpperCase();
         int x = Integer.parseInt(args [1]);
-        String m = "EFHILMNORSX";
+        String m = "AEFHILMNORSX";
         int i = 0;
         while (i < cheering.length()){
                 char c = cheering.charAt(i);
